@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Fire Sans", sans-serif;
+}
+
+body{
+    background: #ECF0F1;
+}
+
+.banner{
+    text-align: left; 
+    font-family: Comic Sans MS; 
+    font-weight:bold; 
+    font-size: 30px; 
+    /* color: #EBD758;  */
+    color: #FBA834;
+    text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68;
+}
+
+header{
+    background:#000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1%;
+    padding-right: 2%;
+    font-weight: bold;
+}
+
+header img{
+    width: 250px;
+    height: 70px;
+}
+
+body header nav{
+    padding-top: 1px;
+}
+
+header nav a{
+    font-size: 18px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header nav a:hover{
+    color: #FBA834;
+}
+
+section div h2{
+    color: wheat;
+}
+
+section div a{
+    text-decoration: none;
+    color: #FBA834;
+    font-weight: bold;
+}
+
+.barra-izq{
+    width: 100vh;
+    padding: 5px;
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+}
+
+.barra-der{
+    width: 100vh;
+    padding: 5px;
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+}
+
+.barra-der a{
+    display: flex;
+    margin: 15px;
+}
+
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 5%;
+}
+
+.encabezado p,h1{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.barra-izq a{
+    display: flex;
+    margin: 15px;
+}
+.recetas a{
+    border-bottom: 1px solid #ccc;
+    width: 175px;
+}
+.recetas a:hover{
+    transform: scale(1.01);
+}
+
+.recetas-blog a{
+    border-bottom: 1px solid #ccc;
+    width: 175px;
+}
+
+.main-container{
+    flex-basis: 50%;
+    background-color: #c90a0a8c;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 5%;
+    width: inherit; 
+}
+
+.receta-01{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 5%;
+}
+.receta-01 ul,li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.botones{
+    background: #F39C12;
+    padding: 10px 5%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.botones:hover{
+    background: #F5B041;
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+/* .receta{
+    background-color: rgba(228, 182, 33, 0.616);
+} */
+
+.receta h2{
+    color: #333A73;
+    padding: 1% 5%;
+}
+
+.ingredientes{
+    display: flex;
+    margin: 10px;
+}
+
+.lista{
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+footer{
+    background: #000000;
+    color: #fff;
+    padding: 20px 5%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 5%;
+    margin-right: 10px;
+}
+
+.preparacion05{
+    padding:20px
+}
